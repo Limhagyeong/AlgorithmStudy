@@ -20,7 +20,6 @@ public class ArraySum {
 		System.out.println(sum);
 		
 		
-		
 	}
 
 }
