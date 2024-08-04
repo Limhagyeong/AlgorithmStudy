@@ -8,7 +8,7 @@ public class Algorithm01_Med {
 		else if((a<=b && c>=a) || (a>=b && c>=a))
 			return a;
 		return c;
-	}
+	} 
 	public static void main(String[] args) {
 		Scanner scanner=new Scanner(System.in);
 		
