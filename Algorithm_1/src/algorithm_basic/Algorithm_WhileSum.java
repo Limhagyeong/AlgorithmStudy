@@ -18,7 +18,6 @@ public class Algorithm_WhileSum {
 		}
 		
 		System.out.print("1부터 "+n+"까지의 총합: "+sum);
-		
 	}
 
 }
