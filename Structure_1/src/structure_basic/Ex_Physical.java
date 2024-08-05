@@ -2,14 +2,12 @@ package structure_basic;
 import java.util.Scanner;
 public class Ex_Physical {
 	
-	static final int vMAX=21;
-	
 	static class PhyscData{
 		String name;
 		int height;
 		double vision;
 		
-		// 생성자
+		// 생성자 => 인스턴스 초기화를 위해 사용됨
 		public PhyscData(String name, int height, double vision) { 
 			// TODO Auto-generated constructor stub
 			this.name=name;
@@ -41,6 +39,7 @@ public class Ex_Physical {
 				new PhyscData("이수연", 168, 0.9)
 		};
 		
+		
 		System.out.println("■ 신체 검사 리스트 ■");
 		System.out.println("이름     키    시력");
 		System.out.println("----------------");
@@ -49,6 +48,7 @@ public class Ex_Physical {
 			System.out.printf("%-6s%3d%5.1f\n",a[i].name,a[i].height,a[i].vision);	
 		}
 		System.out.println("평균 키: "+avgHeight(a));
+
 	}
 
 }
